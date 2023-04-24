@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Registration Successful</h2>
+  <p>Welcome, {{ request.user.username }}!</p>
+  <p>Your roles are: {{ request.user.role}}.</p>
+{% endblock %}
